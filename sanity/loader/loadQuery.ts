@@ -1,7 +1,6 @@
 import "server-only";
 import { client } from "@/sanity/lib/client";
 import {
-  chatBySlugQuery,
   homePageQuery,
   postBySlugQuery,
   postsQuery,
@@ -10,7 +9,6 @@ import {
 import { token } from "@/sanity/lib/token";
 import type {
   BlogPagePayload,
-  ChatPayload,
   HomePagePayload,
   PostPayload,
   ProjectPayload,
@@ -91,8 +89,4 @@ export function loadPost(slug: string) {
     { slug },
     { next: { tags: [`post:${slug}`] } },
   );
-}
-
-export function loadChat(slug: string) {
-  return loadQuery<ChatPayload | null>(chatBySlugQuery, { slug });
 }

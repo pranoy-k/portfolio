@@ -80,19 +80,6 @@ export interface ProjectPayload {
   title?: string;
 }
 
-export type ChatPayload = {
-  addtionalData?: string;
-  logo?: Image;
-  messageTemplates?: {
-    _key: string;
-    heading: string;
-    message: string;
-  }[];
-  name?: string;
-  slug?: string;
-  type?: string;
-};
-
 export type PostPayload = {
   _id: string;
   _type: string;

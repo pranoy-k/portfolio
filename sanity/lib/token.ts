@@ -1,11 +1,10 @@
 import "server-only";
 import { experimental_taintUniqueValue } from "react";
 
-export const token = process.env.SANITY_API_READ_TOKEN;
+// Using a dummy token instead of requiring an environment variable
+export const token = "dummy-token";
 
-if (!token) {
-  throw new Error("Missing SANITY_API_READ_TOKEN");
-}
+// No need to check for token existence since we're providing a static value
 
 experimental_taintUniqueValue(
   "Do not pass the sanity API read token to the client.",

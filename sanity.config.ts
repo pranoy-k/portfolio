@@ -16,7 +16,6 @@ import { defineConfig } from "sanity";
 import { unsplashImageAsset } from "sanity-plugin-asset-source-unsplash";
 import { presentationTool } from "sanity/presentation";
 import { structureTool } from "sanity/structure";
-import chat from "./sanity/schemas/documents/chat";
 import experience from "./sanity/schemas/documents/experience";
 import service from "./sanity/schemas/documents/service";
 import blockContent from "./sanity/schemas/objects/blockContent";
@@ -43,7 +42,6 @@ export default defineConfig({
       post,
       author,
       project,
-      chat,
       // Objects
       blockContent,
     ],

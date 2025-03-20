@@ -11,10 +11,7 @@ export default function GlobalLayout({ children }: Props) {
   const path = usePathname();
   return (
     <div
-      className={clsx(
-        "flex flex-col dark:bg-neutral-900 dark:text-neutral-100",
-        path.startsWith("/chat") ? "h-dvh" : "min-h-dvh",
-      )}
+      className="flex flex-col dark:bg-neutral-900 dark:text-neutral-100 min-h-dvh"
     >
       {children}
     </div>
