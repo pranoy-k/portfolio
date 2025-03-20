@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Legal Notice",
   description:
-    "Legal Notice of Nikolai Lehbrink - Conception, Design and Development",
+    "Legal Notice of Pranoy Kovuri - Conception, Design and Development",
   keywords: ["Legal Notice", "Imprint", "Impressum"],
 };
 
@@ -14,7 +14,7 @@ export default function Page() {
         <h1>Legal Notice</h1>
         <p>
           This website is operated by{" "}
-          <strong>Nikolai Lehbrink - Conception, Design and Development</strong>
+          <strong>Pranoy Kovuri - Conception, Design and Development</strong>
           .
         </p>
         <time dateTime="2024-02-09T23:03:30+02:00" itemProp="datePublished">
@@ -23,7 +23,7 @@ export default function Page() {
       </header>
       <h2>Contact Information:</h2>
       <address>
-        Nikolai Lehbrink
+        Pranoy Kovuri
         <br />
         28203 Bremen
         <br />
@@ -36,7 +36,7 @@ export default function Page() {
 
       <h2>Responsible for Content:</h2>
       <p>
-        According to Section 5 of TMG, I, Nikolai Lehbrink, am responsible for
+        According to Section 5 of TMG, I, Pranoy Kovuri, am responsible for
         the content on this website, address as above.
       </p>
 

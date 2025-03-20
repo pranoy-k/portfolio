@@ -42,7 +42,7 @@ export function Footer() {
         className="container flex justify-between gap-2 text-muted-foreground
           max-md:flex-col md:items-center"
       >
-        <span>&copy; {new Date().getFullYear()} | Nikolai Lehbrink</span>
+        <span>&copy; {new Date().getFullYear()} | Pranoy Kovuri</span>
         <div
           className="flex flex-wrap items-center gap-2 max-sm:justify-between
             sm:gap-4"

@@ -43,7 +43,7 @@ export default function SharePost({ heading }: { heading: string }) {
     },
     {
       site: "Email",
-      url: `mailto:?subject=${heading}&body=Hi there,%0Ahere is an interesting article from Nikolai Lehbrink: %0A%0A${url}%0A%0AEnjoy reading!`,
+      url: `mailto:?subject=${heading}&body=Hi there,%0Ahere is an interesting article from Pranoy Kovuri: %0A%0A${url}%0A%0AEnjoy reading!`,
       icon: Mailbox,
     },
   ];

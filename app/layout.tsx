@@ -18,8 +18,8 @@ const siteDomain = "https://www.nikolailehbr.ink";
 export const metadata: Metadata = {
   metadataBase: new URL(siteDomain),
   title: {
-    template: "%s - Nikolai Lehbrink",
-    default: "Nikolai Lehbrink - Web Developer & Designer",
+    template: "%s - Pranoy Kovuri",
+    default: "Pranoy Kovuri - Web Developer & Designer",
   },
   description:
     "Web enthusiast from Germany. Specializing in the React Ecosystem, dedicated to creating performant, accessible web applications.",

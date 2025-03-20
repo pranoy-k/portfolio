@@ -4,7 +4,7 @@ import Image from "next/image";
 type Props = Omit<ImageProps, "src" | "alt"> & { alt?: string };
 
 export default function ProfileImage({
-  alt = "GitHub profile image of Nikolai Lehbrink",
+  alt = "GitHub profile image of Pranoy Kovuri",
   ...props
 }: Props) {
   const imageUrl = "https://avatars.githubusercontent.com/u/38915700?v=4";

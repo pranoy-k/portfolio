@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Privacy policy",
   description:
-    "Privacy policy of Nikolai Lehbrink - Conception, Design and Development",
+    "Privacy policy of Pranoy Kovuri - Conception, Design and Development",
   keywords: ["Privacy policy", "Data protection", "Privacy statement"],
 };
 
@@ -139,7 +139,7 @@ export default function Page() {
       <h3>Note to the responsible entity</h3>
       <p>The responsible entity for data processing on this website is:</p>
       <p>
-        Nikolai Lehbrink - Conception, Design and Development
+        Pranoy Kovuri - Conception, Design and Development
         <br />
         28203 Bremen
         <br />

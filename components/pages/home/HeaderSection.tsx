@@ -82,7 +82,7 @@ export default function HeaderSection() {
               className="duration-700 animate-in fade-in-10 zoom-in-50"
               src={headerIllustration}
               priority
-              alt={"Header illstration of Nikolai Lehbrink"}
+              alt={"Header illstration of Pranoy Kovuri"}
             />
           </div>
           <Image
