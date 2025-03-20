@@ -2,10 +2,6 @@
 
 Source code for my personal portfolio website. The site showcases my projects and gives an insight into my background, my passion for web development and design, and the technologies I work with.
 
-<a href="https://nikolailehbr.ink">
-  <img alt="Personal portfolio website of Nikolai Lehbrink" src="https://github.com/nikolailehbrink/portfolio/assets/38915700/c7dd07d8-ca7d-4a19-8af3-f684e483bb60">
-</a>
-
 ## ✨ Features
 
 - **Modern Technologies**: Built with [Next.js 14](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), and [Tailwind CSS](https://tailwindcss.com/).
